@@ -67,14 +67,26 @@
     }
   }
   .footer {
-    display:flex;
     background-color: #6b666c;
-}
-.lets-connect {
+    width:100% !important;
+  }
+ .lets-connect {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     padding-right: 80px;
     padding-left:746px;
+}
+.jumbotron {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background-color: #C6C6C9 !important;
+}
+.row {
+  padding-top: 25px !important;
+  padding-bottom:25px !important;
+}
+#problem-card {
+  justify-content:center;
 }
