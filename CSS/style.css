@@ -66,17 +66,13 @@
       text-align: left;
     }
   }
-  .footer {
-    background-color: #6b666c;
-    width:100% !important;
-  }
- .lets-connect {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    padding-right: 80px;
-    padding-left:746px;
+.footer {
+    display:flex !important;
+    background-color: #6b666c !important;
+}
+.lets-connect {
+    text-align:center !important;
+    padding-left:530px !important;
 }
 .jumbotron {
   padding-top: 15px !important;
