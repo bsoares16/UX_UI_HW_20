@@ -68,11 +68,23 @@
   }
 .footer {
     display:flex !important;
-    background-color: #6b666c !important;
+    background-color: #6b666c;
 }
 .lets-connect {
     text-align:center !important;
     padding-left:530px !important;
+}
+li.linkedin {
+  float:left !important;
+  display:block !important;
+}
+ul.social{
+  display: block !important;
+  list-style-type: disc !important;
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
 }
 .jumbotron {
   padding-top: 15px !important;
